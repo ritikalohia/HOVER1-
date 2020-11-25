@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type10</title>
+
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: sans-serif; 
+        }
+
+        .btn{
+            border: 2px solid tomato;
+            background: none;
+            color: tomato;
+            padding: 20px 40px;
+            font-size: 25px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.5s;
+            position: relative;
+            overflow:hidden;
+        }
+
+        .btn:before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background: tomato;
+            z-index: -1;
+            border-radius: 0 0 50% 50%;
+            transition: all 0.5s;
+
+        }
+
+        .btn:hover:before{
+            height: 190%;
+        }
+        .btn:hover{
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <button class="btn">button</button>
+</body>
+</html>

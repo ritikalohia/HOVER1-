@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type2</title>
+</head>
+
+<style>
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a{
+        text-decoration: none;
+        color: #351435;
+        font-family: sans-serif;
+        font-size: 40px;
+        border: 3px solid #351435;
+        padding: 40px 80px;
+        position: relative;
+        transition: all 1s; 
+        overflow: hidden;
+    }
+
+    a:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #351435;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        transform-origin: bottom left;
+        transform:  translateX(-100%);
+        transition: all 1s;
+
+    }
+
+    a:hover:before{
+        transform: translateX(0);
+    }
+
+    a:hover{
+        color: white;
+    }
+
+</style>
+
+<body>
+    <a href="#">Hover Me</a>
+</body>
+</html>
