@@ -1,8 +1,7 @@
 # HOVER1-
 
-<p>Do you want some super classy hover effects? then this repo is for you. These effects are so simple to make and have been used only transition, transform property and before and after selectors in css . 
-  <br>I know it shows only html files, but internal css have been embedded in html itself.
-you just have to copy the code, and it will save your 15-30min that you have generally spent on finding ideas and writing code.<br>
+<p>Do you want some super classy hover effects? then this repo is for you. These effects are so simple to make and have been used only transition, transform property and before and after selectors in css .<br> you just have to copy the code, and it will save your 15-30min that you have generally spent on finding ideas and writing code
+  <br>I know it shows only html files, but internal css have been embedded in html itself. some of the gifs get blurred in readme but codes work properly.
 </p> 
 <h3>Type1</h3>
 <img src="type1.gif" width="300px" height="200px"/><br>
