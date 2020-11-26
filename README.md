@@ -1,4 +1,7 @@
 # HOVER1-
+
+<p>Do you want some super classy hover effects? then this repo is for you. I know it shows only html files, but internal css have been embedded in html itself.
+you just have to copy the code, and it will save your 15-30min that you have generally spent on finding ideas and writing code.</p> 
 <h3>Type1</h3>
 <img src="type1.gif" width="300px" height="200px"/><br>
 
@@ -24,7 +27,7 @@
 <img src="type8.gif" width="300px" height="200px"/><br>
 
 <h3>Type9</h3>
-<img src="type9.gif" width="300px" height="200px"/><br>
+<img src="type9.gif" width="800px" height="200px"/><br>
 
 <h3>Type10</h3>
 <img src="type10.gif" width="300px" height="200px"/><br>
